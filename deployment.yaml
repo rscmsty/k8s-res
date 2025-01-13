@@ -18,7 +18,7 @@ spec:
         app: depl1
     spec:
       containers:
-      - image: busybox
+        - image: busybox:stable
         name: busybox
         resources: {}
 status: {}
